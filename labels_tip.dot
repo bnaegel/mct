@@ -1,0 +1,19 @@
+digraph G {
+    "Background" -> "Natural surface";
+    "Background" -> "Artificial surface";
+    "Natural surface" -> "Bare soil";
+    "Natural surface" -> "Water";
+    "Natural surface" -> "Vegetation";
+    "Vegetation" -> "Herbaceous";
+    "Vegetation" -> "Forest";
+    "Artificial surface" -> "Communication";
+    "Artificial surface" -> "Building";
+    "Communication" -> "Road";
+    "Communication" -> "Railway";
+    "Building" -> "Shadow";
+    "Building" -> "Roof";
+    "Roof" -> "Slate roof";
+    "Roof" -> "Red roof";
+    "Roof" -> "Grey roof";
+    "Roof" -> "Metallic roof"; 
+}
